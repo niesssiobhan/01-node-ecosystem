@@ -8,22 +8,21 @@
 ### Links and Resources
 * [repo](http://xyz.com)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [server](http://xyz.com)
 
 ### Modules
 #### `modulename.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `arithmetic.add(a, b) -> number`
+Used to add two numbers together, or return same value if one number has been entered
 
 ###### `bar(array) -> array`
 Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
+* `PORT` - Defined by ENV
 * `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
