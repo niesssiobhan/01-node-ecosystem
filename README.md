@@ -1,9 +1,9 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Node Ecosystem
 
-### Author: Student/Group Name
+### Author: Siobhan Niess
 
 ### Links and Resources
 * [repo](http://xyz.com)
