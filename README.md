@@ -6,9 +6,9 @@
 ### Author: Siobhan Niess
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [server](http://xyz.com)
+* [repo](https://github.com/niesssiobhan/01-node-ecosystem/pull/3)
+* [travis](https://travis-ci.com/niesssiobhan/01-node-ecosystem)
+* [server](https://niess-01-lab.herokuapp.com/)
 
 ### Modules
 #### `modulename.js`
