@@ -6,7 +6,7 @@ let nameOne = faker.name.firstName;
 let nameTwo = faker.name.firstName;
 let number = faker.random.number;
 
-const greet = require('../../lib/greet.js');
+const greet = require('../lib/greet.js');
 
   describe('Hello', () => {
 
