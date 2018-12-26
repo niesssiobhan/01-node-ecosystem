@@ -11,31 +11,31 @@
 * [server](https://niess-01-lab.herokuapp.com/)
 
 ### Modules
-#### `modulename.js`
+#### `greet.js`
+#### `arithmetic.js`
 ##### Exported Values and Methods
 
 ###### `arithmetic.add(a, b) -> number`
 Used to add two numbers together, or return same value if one number has been entered
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `greet.sayHello('name')`
+Used to retrun a string that says 'Hello' and then a name that is specified. 
 
 ### Setup
 #### `.env` requirements
 * `PORT` - Defined by ENV
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `/`
+  * Returns console logs from modules
 
 #### Tests
 * How do you run tests?
+* The tests are being run through Travis after the code is pushed and saved up into GitHub 
 * What assertions were made?
+* There has to be at least one parmeter entered, but no additional parameters. 
+* For the arithmetic they have to eventer a number and not a string
+* For the greeting they must enter a string but not a number 
 * What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
+* Everything has been covered 
